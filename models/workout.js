@@ -1,5 +1,5 @@
-// ne wmongoose schema (copy pasta from 10-16)
-
+const mongoose = require("mongoose");
+const Schema = mongoose.Schema;
 // day : date
 
 exercises: [
