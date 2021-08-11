@@ -15,26 +15,31 @@ exercises: [
         name: {
             type: String,
             trim: true,
-            required: true
+            required: "What is the exercise called?"
         },
         weight: {
-            type: Number
+            type: Number,
+            required: "Enter a weight"
         },
         sets: {
-            type: Number
+            type: Number,
+            required: "Enter number of sets"
         },
         reps: {
-            type: Number
+            type: Number,
+            required: "Enter number of reps"
         },
         duration: {
-            type: Number
+            type: Number,
+            required: "Enter duration"
         }, 
         distance: {
-            type: Number
+            type: Number,
+            required: "Enter distance"
         },
     },
 ],
 });
 
-const Workout = mongoose.model("Workout", WorkoutSchema);
+const Workout = mongoose.model("Workout", workoutSchema);
 module.exports = Workout;
