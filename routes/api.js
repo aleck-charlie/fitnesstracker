@@ -20,7 +20,7 @@ router.get('/api/workouts', (req, res) => {
 });
 
 router.post("/api/workouts", (req, res) => {
-    Workout.create({}, (error, data) => {
+    Workout.create(req.body, (error, data) => {
         if (error) {
             res.send(error);
         } else {
