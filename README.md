@@ -19,6 +19,8 @@ Fitness Tracker was developed with:
 
 # Deployed Site
 
-This site can be found at 
+The deployed app can be found at https://fitnesstracker-ac.herokuapp.com/
 
-# Installation
+# Known bugs
+
+Information entered is not reflected in graph or shown on homepage, but is being entered into mongodb. This wil hopefully be cleared up soon.
