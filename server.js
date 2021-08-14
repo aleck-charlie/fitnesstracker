@@ -13,7 +13,7 @@ app.use(express.json());
 app.use(express.static("public"));
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/fitness_tracker",
+  process.env.MONGODB_URI || "mongodb+srv://atlas:atlasagain@cluster0.vqreu.mongodb.net/fitness_tracker?retryWrites=true&w=majority",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
